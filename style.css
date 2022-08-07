@@ -1,0 +1,137 @@
+body, html, main{
+    margin: 0;
+    height: 100%;
+}
+
+#coluna_esq {
+    background-color:#669999;
+    height: 100%;
+    width: 15%;
+    text-align: center;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#Home {
+    background-color:darkgray;
+    height: 100%;
+    width: 85%;
+    float: right;
+    margin-top: auto;
+    text-align: center;
+}
+
+#Conteudo {
+    background-color: darkgrey;
+    /* display: block; */
+    height: 100%;
+    width: 85%;
+    float: right;
+    margin-top: auto;
+    text-align: center;
+}
+
+
+
+.Titulo {
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size: 40px;
+}
+
+.imagem {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+.texto {
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size: 20px;
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+    text-align: justify;
+    padding: 20px;
+}
+
+
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 2px;
+    margin-bottom: 20px;
+}
+
+
+
+.construção {
+    position: absolute;
+    top: 50%;
+    left: 58%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.btn {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    border:none;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: black;
+    color: white;
+}
+
+
+.link-btn {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    border:none;
+    padding: 10px;
+    cursor: pointer;
+    display:inline-block;
+    text-decoration: none;
+    border-radius: 10px;
+
+}
+
+.link-btn-black {
+    background: black;
+    color: aliceblue;
+}
+
+.link-btn-black:hover {
+    background: white;
+    color: black;
+}
+
+#divisoria {
+    border-left: 1px solid white;
+    height: 100%;
+    position:absolute;
+    left: 15%;
+}
+
+#Foto_perfil {
+    width: auto;
+    height: 40%;
+    float: left;
+    padding: 20px;
+    padding-left: 30px;
+}
+
+#menu {
+    margin-top: 50%;
+}

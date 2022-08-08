@@ -1,6 +1,13 @@
 
-var c = document.getElementById("myCanvas");
-var ctx = c.getContext("2d");
-ctx.beginPath();
-ctx.arc(95, 50, 40, 0, 2 * Math.PI);
-ctx.stroke();
+
+function load_line () {  
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    ctx.moveTo(0, 0);
+    ctx.lineTo(500, 200);
+    ctx.strokeStyle = '#ff0000';
+    ctx.lineWidth = 3
+    ctx.stroke();
+}
+
+

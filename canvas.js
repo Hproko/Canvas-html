@@ -282,6 +282,10 @@ document.addEventListener("contextmenu",
 function (e)  
 {
     e.preventDefault();
+    
+    if (holding_line == 1)
+	return
+
     let mousePos = getMousePos(canvas, e)
 
     is_on_any_line(mousePos.x, mousePos.y)
